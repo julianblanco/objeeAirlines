@@ -1,0 +1,12 @@
+Autopilot program flow
+
+On startup:
+1.	Retrieve craft characteristics
+2.	Initialize sensors and servos
+3.	Retrieve mission instructions (waypoints)
+
+On interval:
+4.	Poll sensors for orientation and current position
+5.	Calculate necessary orientation to achieve desired position from current
+6.	Run control system calculations
+7.	Push values to servos to achieve desired orientation

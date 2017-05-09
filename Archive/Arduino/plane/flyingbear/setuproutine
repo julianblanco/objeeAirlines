@@ -1,0 +1,75 @@
+char inchar;
+int serialwp =0;
+
+void setuproutine()
+{
+Serial.println('a');
+delay(10);
+  while(strcmp('a',inchar)
+  {
+    inchar=Serial.read();
+  }
+  delay(10);
+  Serial.println('a');
+  delay(10);
+  while(strcmp('a',inchar)
+  {
+  inchar=Serial.read();
+  }
+  while(serialwp<1)
+  {
+  serialwp=Serial.read():
+  } 
+  Serial.println(serialwp);
+  for(int i=0; i++; i<Serialwp)
+  {
+    while(abs(wplat)<1)
+    {
+   wplat[i]= Serial.parseint();
+    }
+    Serial.println(wplat[i]);
+    delay(100);
+  }
+  for(int i=0; i++; i<Serialwp)
+  {
+    while(abs(wplat)<1)
+    {
+   wplong[i]= Serial.parseint();
+    }
+    Serial.println(wplong[i]);
+    delay(100);
+  }
+}
+
+void sdsetuproutine()
+{
+    while(strcmp('a',inchar)
+  {
+    inchar=Serial.read();
+  }
+  delay(13);
+  Serial.println('a');
+  delay(13);
+  while(strcmp('a',inchar)
+  {
+  inchar=Serial.read();
+  }
+  delay(12);
+  Serial,println('a');
+delay(12);
+   myFile = SD.open("gps.txt");
+  if (myFile) {
+    Serial.println("gps.txt:");
+
+    // read from the file until there's nothing else in it:
+    while (myFile.available()) {
+      Serial.write(myFile.read());
+    }
+    // close the file:
+    myFile.close();
+  } else {
+    // if the file didn't open, print an error:
+    Serial.println("error opening test.txt");
+  }
+}
+}

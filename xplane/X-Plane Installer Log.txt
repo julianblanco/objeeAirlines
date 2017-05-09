@@ -1,0 +1,614 @@
+Installer log.txt for X-Plane Installer 3.40r3 compiled on Sep 19 2016 21:05:06
+Installer started on Thu Oct  6 04:36:40 2016
+
+This log file is generated automatically by Laminar Research applications and contains diagnostics about your graphics hardware, installation, and any error conditions.
+If you need to contact tech support or file a bug, please send us this file. NOTE: this file is rewritten every time you start ANY of your X-System applications.
+
+processor	: 0
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 836.851
+processor	: 1
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 2
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 3
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 4
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 5
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 6
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+processor	: 7
+model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu MHz		: 799.929
+MemTotal:       16314432 kB
+
+X-System folder:'', case sensitive=1
+
+-------------------------------------------------------------------
+Application was launched with the following command line options...
+	'-path'
+	'/home/capstone/X-Plane 10/X-Plane-x86_64'
+-------------------------------------------------------------------
+
+No UBOs if GLSL < 1.5.
+
+OpenGL Vendor    : Intel Open Source Technology Center
+OpenGL Render    : Mesa DRI Intel(R) HD Graphics 530 (Skylake GT2) 
+OpenGL Version   : 3.0 Mesa 11.2.0 (300/0)
+OpenGL Extensions: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_stencil_export GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shader_atomic_counters GL_ARB_shader_image_load_store GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_framebuffer_no_attachments GL_ARB_invalidate_subdata GL_ARB_program_interface_query GL_ARB_shader_image_size GL_ARB_shader_storage_buffer_object GL_ARB_stencil_texturing GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_multi_bind GL_ARB_seamless_cubemap_per_texture GL_ARB_shader_draw_parameters GL_ARB_texture_mirror_clamp_to_edge GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_integer_mix GL_ARB_clip_control GL_ARB_conditional_render_inverted GL_ARB_derivative_control GL_ARB_get_texture_sub_image GL_ARB_pipeline_statistics_query GL_ARB_shader_texture_image_samples GL_ARB_texture_barrier GL_EXT_polygon_offset_clamp GL_KHR_context_flush_control GL_ARB_shader_clock GL_EXT_shader_samples_identical 
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap GLX_INTEL_swap_event GLX_EXT_buffer_age 
+
+threaded_avail   : 0	aniso_avail      : 1	timer_avail      : 1	sync/fence       : 1
+pbo_avail        : 1	frameblit_avail  : 1
+gpu_shad4_avail  : 1	shad_lod_avail   : 1	array_tex_avail  : 1	texture_rg       : 1
+tex_float_avail  : 1	seamless_avail   : 1	drawbuf2_avail   : 1	packed_stencil   : 1
+framebuffer_srgb : 1	copy_buf_avail   : 1	ubo_avail        : 0	gshader_avail    : 0
+instance_avail   : 1	dis_fog_avail    : 0	pinned_avail     : 0	debug_avail      : 1
+max tex units    : 8 (32/8)
+max iso filtering: 16.000000
+max texture size : 8192 (hardware limit)
+max point size   : 255.000000
+idx in vram      : 1
+GLSL Version     :1.30/130
+first-gen shaders: 0
+(16/16384/128/160/32/16384/16384)
+This video card is: DX10 or 11 - With instancing
+CPU count        : 8
+os_dir_this_app		=/home/capstone/X-Plane 10/
+os_dir_desktop		=/home/capstone/
+os_dir_default_apps	=/home/capstone/
+os_dir_temp			=/tmp/
+os_dir_prefs			=/home/capstone/.x-plane/
+
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/common_textures/ground/grass_vdry_patchy_TRN.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/common_textures/ground/grass_wet_patchy_TRN.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/common_textures/ground/lawn_collage_TRN.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/forests/textures/autogen_trees_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/objects/LawnGrpSml1FP.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/objects/WindConeSmall.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/textures/domestic_boundaries.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/textures/domestic_clutter_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/textures/domestic_clutter_GND_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/textures/domestic_clutter_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/global_objects/dummy.agp: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/A_buildings_1.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/A_buildings_1_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/A_buildings_2.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/A_buildings_2_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B1_a.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B1_b.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B1_c.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B1_d.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B2_a1.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/B2_a2.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/objects/building_1.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/objects/building_2.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/textures/window_bake_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/textures/window_bake_NML.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/textures/window_bake_NML.psd: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/commercial/textures/RetailOutlay_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/light/objects/test_ind1.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/light/textures/GasStations_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/light/textures/GasStations_LIT_.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/light/textures/IndustryLightFlat_ALB.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/obstacles/objects/base1.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/obstacles/objects/mast1.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/obstacles/objects/RadioMast200.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/obstacles/objects/RadioMast620.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/power/textures/wind_farm_DRP.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/industrial/power/textures/wind_turbines_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/suburban/textures/sub_res_SW_ALB.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/suburban/textures/sub_res_SW_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/suburban/textures/TrailerPark_GND.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/suburban/textures/TrailersRes_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/suburban/textures/TrailersRes_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/30x40x210scv0.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/48x22x90scv0.fac: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/base10.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/base4.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/base4_3.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/HR45x30x480v0.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/HR45x30x545v0.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/HR45x30x545v1.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/HR60x50x112.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/tower11.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/tower4.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/objects/tower4_3.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/textures/NEHighRes1_GND_CTL.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/textures/test_UH_GND_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_high/textures/UrbanHighNE_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/objects/ProjBrDrp2.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/objects/ProjBrDrp3.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/textures/Condos_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/textures/HighRise2_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/textures/HighRiseRes_GND_ALB.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/textures/ProjDummyTiles.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/urban_mid/textures/UrbanMidNE1_CTL.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/alex_library_goo.lib: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/ben_goo.lib: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_cabin.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_fuselage.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_fuselage_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_panelback.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_panelback_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_Propellers.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_seats.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_Wings.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/B58_Wings_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/ga_pilot.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/Garmin_530.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/objects/Garmin_530_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/Baron_58_cockpit.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/Baron_58_cockpit_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/Baron_58_paint.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Baron B58/Baron_58_paint2.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/Cessna 172SP/info.txt: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC-1.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC-2.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC-3.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC-4.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC.txt: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC_LIT-1.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC_LIT-2.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC_LIT-3.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/cockpit_3D/standard six/HSIs/HSI_2_BC_LIT-4.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_Cabin.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_cockpit_misc.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_Fuselage_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_glass_decals.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_NoseGear_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_panelback.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_seats.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/C90B_Wings_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/com_C90B_seats.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/objects/ga_pilot.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/KingAirC90B_cockpit.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/KingAirC90B_cockpit_LIT.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/KingAirC90B_paint.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/General Aviation/KingAir C90B/KingAirC90B_paint2.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/Heavy Metal/B747-400 United/Cold&Dark Procedures.txt: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/Heavy Metal/B747-400 United/FMC labels.txt: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Aircraft/Heavy Metal/B747-400 United/Readme.txt: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Custom Scenery/Global Airports/Earth nav data/+40+020/+41+028.dsf: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/bitmaps/interface/fill_box.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/P180_avanti_ferrari.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/P180_avanti_ferrari.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/P180_avanti_ferrari_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/P180_avanti_white.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/P180_avanti_white.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/P180_avanti_white_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/MD80_Alitalia.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/MD80_Alitalia.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/MD80_Alitalia_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heaLaunching: /home/capstone/X-Plane 10/X-Plane-x86_64 with 
+Clean exit from threads.
+vy_metal/MD-80_Delta/MD80_Delta.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/MD80_Delta.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/MD80_Delta_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/MD80_SAS.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/MD80_SAS.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/MD80_SAS_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/CRJ100_Air_France.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/CRJ100_Air_France.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/CRJ100_Air_France_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/CRJ100_Austrian_Arrows.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/CRJ100_Austrian_Arrows.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/CRJ100_Austrian_Arrows_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/Dornier_328_jet_Welcome_Air.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/Dornier_328_jet_Welcome_Air.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/Dornier_328_jet_Welcome_Air_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/Dornier_328_jet_Cirrus_Airlines.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/Dornier_328_jet_Cirrus_Airlines.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/Dornier_328_jet_Cirrus_Airlines_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/ATR42-500_Air_Dolomiti.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/ATR42-500_Air_Dolomiti.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/ATR42-500_Air_Dolomiti_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/ATR42-500_FedEx.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/ATR42-500_FedEx.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/ATR42-500_FedEx_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/ATR72-500_American_Eagle.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/ATR72-500_American_Eagle.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/ATR72-500_American_Eagle_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/ATR72-500_Lufthansa_Regional.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/ATR72-500_Lufthansa_Regional.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/ATR72-500_Lufthansa_Regional_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/background.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/bottom_center.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/bottom_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/bottom_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/condition_attribution.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/condition_non_commercial.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/condition_x-plane_only.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/free_to_share.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/left_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/logo_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/logo_no_derivative_works.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/logo_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/no_derivative_works.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/right_paragraph.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_c.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_center_conditions.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_center_free.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_l.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_left.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_r.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/top_right.gif: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/Dornier_328_prop_Air_Alps.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/Dornier_328_prop_Air_Alps.obj: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/Dornier_328_prop_Air_Alps_LIT.dds: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/License.html: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/picture.png: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/Dornier-328_prop_Air_Alps/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_Lufthansa_Regional/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR72-500_American_Eagle/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_FedEx/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/ATR42-500_Air_Dolomiti/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_prop/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328_jet_Cirrus_Airlines/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/Dornier-328-jet_Welcome_Air/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Austrian_Arrows/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/CRJ100_Air_France/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/regional_jet/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Scandinavian/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Delta/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/MD-80_Alitalia/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/heavy_metal/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_White/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/images/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/P180_Avanti_Ferrari/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/sim objects/apt_aircraft/corporate/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/textures/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/objects/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/test/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/temp_facades_from_v9/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/forests/textures/: 
+0:01:37.985 I/INS: Deleting file /home/capstone/X-Plane 10/Resources/default scenery/1000 autogen/US/commercial/textures/: 

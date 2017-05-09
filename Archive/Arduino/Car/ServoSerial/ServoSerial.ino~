@@ -1,0 +1,61 @@
+/*******************************************************
+* SerialServoControl Sketch
+* Written by Ryan Owens for SparkFun Electronics
+* 7/15/11
+*
+* This sketch listens to serial commands and uses the data
+* to set the position of two servos.
+*
+* Serial Command Structure: 2 bytes - [ID Byte][Servo Position byte]
+* ID byte should be 0 or 1.
+* Servo position should be a value between 0 and 180.
+* Invalid commands are ignored
+* The servo position is not error checked.
+* 
+* Hardware Setup
+* Servos should be connected to pins 5 and 6 of the Arduino.
+* 9V DC Power supply is recommended as USB can't always handle powering two servos
+*/
+
+#include <Servo.h>  //Used to control the Pan/Tilt Servos
+
+
+//These are the objects for each servo.
+Servo servo, motor;
+
+//This is a character that will hold data from the Serial port.
+char serialChar=0;
+int i=90;
+int j=0;
+void setup(){
+   servo.attach(10);   //The Pan servo is attached to pin 6.
+  motor.write(90);  //Initially put the servos both
+  servo.write(90);      //at 90 degress
+  delay(500);
+  Serial.begin(9600);  //Set up a serial connection for 9600 bps.
+}
+
+void loop(){
+  motor.writeMicroseconds(1650);
+  while(Serial.available() <=0);  //Wait for the second command byte from the serial port.
+ {
+  
+  i=Serial.parseInt();  //Set the tilt servo position to the value of the second command byte received on the serial port
+  if(i>0)
+  {
+    j=i;
+  }
+  motor.writeMicroseconds(1650);
+  Serial.print("Servo: ");
+  Serial.println(j);
+  if(j>160)
+  j=160;
+  
+  if (j<40)
+  j=40;
+  
+  servo.write(j);
+ }
+}
+
+

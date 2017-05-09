@@ -1,0 +1,18 @@
+August 25th 2016
+
+	Master.ino	
+		Lines 86-91:
+			- removed if((counter % 1) ==0) conditional
+
+		Line 89:
+			- removed argument 0 from Update
+		
+		Line 55:
+			- removed parameter 'int test'
+
+		Line 43:
+			- removed 
+
+		
+
+	

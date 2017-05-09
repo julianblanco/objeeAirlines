@@ -1,0 +1,132 @@
+/*---------------------------------------------------------*/
+/* parameters and functions for UTM<->Lat/Long conversions */
+/* UTM conversion is based on WGS84 ellipsoid parameters   */
+/*---------------------------------------------------------*/
+
+RADIUS = 6378137.0;
+FLATTENING = 0.00335281068; /* GRS80 or WGS84 */
+K_NOT = 0.9996;     /* UTM scale factor */
+DEGREES_TO_RADIANS = 0.01745329252;
+FALSE_EASTING = 500000.0;
+FALSE_NORTHING = 10000000.0;
+
+/*--------------------------------------------------------*/
+/* These Java functions were converted from original      */
+/* C fucntions provided by Dana Yoerger, Steve Gegg,      */
+/* and Louis Whitcomb at WHOI                             */
+/*--------------------------------------------------------*/
+
+function geo_utm(lat, lon, zone)
+{
+   with(Math)
+   {
+      /* first compute the necessary geodetic parameters and constants */
+
+      lambda_not = ((-180.0 + zone*6.0) -3.0)/RADIANS ;
+      e_squared = 2.0 * FLATTENING - FLATTENING*FLATTENING;
+      e_fourth = e_squared * e_squared;
+      e_sixth = e_fourth * e_squared;
+      e_prime_sq = e_squared/(1.0 - e_squared);
+      sin_phi = sin(lat);
+      tan_phi = tan(lat);
+      cos_phi = cos(lat);
+      N = RADIUS/sqrt(1.0 - e_squared*sin_phi*sin_phi);
+      T = tan_phi*tan_phi;
+      C = e_prime_sq*cos_phi*cos_phi;
+      M = RADIUS*((1.0 - e_squared*0.25 -0.046875*e_fourth  -0.01953125*e_sixth)*lat-
+	      (0.375*e_squared + 0.09375*e_fourth +
+				 0.043945313*e_sixth)*sin(2.0*lat) +
+	      (0.05859375*e_fourth + 0.043945313*e_sixth)*sin(4.0*lat) -
+	      (0.011393229 * e_sixth)*sin(6.0*lat));
+      A = (lon - lambda_not)*cos_phi;
+      A_sq = A*A;
+      A_fourth =  A_sq*A_sq;
+  
+      /* now go ahead and compute X and Y */
+  
+      x_utm = K_NOT*N*(A + (1.0 - T + C)*A_sq*A/6.0 +
+		   (5.0 - 18.0*T + T*T + 72.0*C - 
+		    58.0*e_prime_sq)*A_fourth*A/120.0);
+  
+      /* note:  specific to UTM, vice general trasverse mercator.  
+         since the origin is at the equator, M0, the M at phi_0, 
+         always equals zero, and I won't compute it   */                                            
+  
+       y_utm = K_NOT*(M + N*tan_phi*(A_sq/2.0 + 
+			    (5.0 - T + 9.0*C + 4.0*C*C)*A_fourth/24.0 +
+			    (61.0 - 58.0*T + T*T + 600.0*C - 
+			     330.0*e_prime_sq)*A_fourth*A_sq/720.0));
+  
+       /* now correct for false easting and northing */
+  
+       if( lat < 0)
+       {
+          y_utm +=10000000.0;
+       }
+       x_utm +=500000;
+    }
+    return true;
+}
+
+
+function utm_geo(x_utm, y_utm, zone)
+{
+   with(Math)
+   {
+      /* first, subtract the false easting */
+      x_utm = x_utm - FALSE_EASTING;
+
+      /* compute the necessary geodetic parameters and constants */
+
+      e_squared = 2.0 * FLATTENING - FLATTENING*FLATTENING;
+      e_fourth = e_squared * e_squared;
+      e_sixth = e_fourth * e_squared;
+      oneminuse = sqrt(1.0-e_squared);  
+
+      /* compute the footpoint latitude */
+
+      M = y_utm/K_NOT;
+      mu =M/(RADIUS*(1.0 - 0.25*e_squared - 
+                  0.046875*e_fourth - 0.01953125*e_sixth));
+      e1 = (1.0 - oneminuse)/(1.0 + oneminuse);
+      e1sq =e1*e1;
+      footpoint = mu + (1.5*e1 - 0.84375*e1sq*e1)*sin(2.0*mu) +
+              (1.3125*e1sq - 1.71875*e1sq*e1sq)*sin(4.0*mu) +
+              (1.57291666667*e1sq*e1)*sin(6.0*mu) +
+              (2.142578125*e1sq*e1sq)*sin(8.0*mu);
+
+
+      /* compute the other necessary terms */
+
+      e_prime_sq =  e_squared/(1.0 -  e_squared);
+      sin_phi = sin(footpoint);
+      tan_phi = tan(footpoint);
+      cos_phi = cos(footpoint);
+      N = RADIUS/sqrt(1.0 - e_squared*sin_phi*sin_phi);
+      T = tan_phi*tan_phi;
+      Tsquared = T*T;
+      C = e_prime_sq*cos_phi*cos_phi;
+      Csquared = C*C;
+      denom = sqrt(1.0-e_squared*sin_phi*sin_phi);
+      R = RADIUS*oneminuse*oneminuse/(denom*denom*denom);
+      D = x_utm/(N*K_NOT);
+      Dsquared = D*D;
+      Dfourth = Dsquared*Dsquared;
+
+      lambda_not = ((-180.0 + zone*6.0) -3.0) * DEGREES_TO_RADIANS;
+
+
+      /* now, use the footpoint to compute the real latitude and longitude */
+
+      var lat = footpoint - (N*tan_phi/R)*(0.5*Dsquared - (5.0 + 3.0*T + 10.0*C - 
+                           4.0*Csquared - 9.0*e_prime_sq)*Dfourth/24.0 +
+                           (61.0 + 90.0*T + 298.0*C + 45.0*Tsquared -
+                            252.0*e_prime_sq -
+                            3.0*Csquared)*Dfourth*Dsquared/720.0);
+      var lon = lambda_not + (D - (1.0 + 2.0*T + C)*Dsquared*D/6.0 +
+                         (5.0 - 2.0*C + 28.0*T - 3.0*Csquared + 8.0*e_prime_sq +
+                          24.0*Tsquared)*Dfourth*D/120.0)/cos_phi;
+
+   }
+   return true;
+}

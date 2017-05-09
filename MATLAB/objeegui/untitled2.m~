@@ -1,0 +1,27 @@
+clf
+clear all
+hold on
+matlabImage = imread('football.jpg');
+
+image([-1 1],[1 -1],matlabImage);   %image(matlabImage,'Parent',map);
+%h=scatter(rand(1,20)-0.5,rand(1,20)-0.5,'r','filled');  %# Plot some random data
+
+CurrentLat=41.372499;
+CurrentLong= 72.098993;
+if CurrentLat>41.372156
+        x=CurrentLat*-.0082;
+    else
+        x=CurrentLat*.0082;
+    end
+     if CurrentLong>-72.099064
+        y=CurrentLong*.013;
+    else
+        y=CurrentLong*-.013;
+     end
+     
+     
+    j='';
+    j=scatter(x,y,'r','filled');  %# Plot some random data
+ %   set(j,'Parent',map);
+    
+    drawnow;

@@ -1,0 +1,117 @@
+
+wplat[]={71,12,21};
+wplong[]={309,31,13,31,23};
+inmdWPLong[]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+inmdWPLong[]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+
+
+desiredcourse=courseToWaypoint(wplat(wpnum),wplong(wpnum),wplat(wpnum+1),wplat(wplong+1);
+distance=distanceToWaypoint(wplat(wpnum),wplong(wpnum),wplat(wpnum+1),wplat(wplong+1))
+inmdWPLat(0)=latgenerator(wplat(wpnum),wplong(wpnum),distance/8,desuredcourse)
+inmdWPLong(0)=longgenerator(wplat(wpnum),wplong(wpnum),distance/8,desuredcourse)
+
+for (int i =1; i++; i<10)
+{
+desiredcourse=courseToWaypoint(inmdWPLat(i-1),inmdWPLong(i-1),wplat(wpnum+1),wplat(wpnum+1));
+distance=distanceToWaypoint(inmdWPLat(i-1),inmdWPLong(i-1),wplat(wpnum+1),wplat(wpnum+1))
+inmdWPLat(i+1)=latgenerator(inmdWPLat(wpnum),inmdWPLat(wpnum),distance/2,desuredcourse)
+inmdWPLong(i+1)=longgenerator(inmdWPLar(wpnum),inmdWPLong(wpnum),distance/2,desuredcourse)
+}
+
+
+
+
+
+navigate waypoints
+
+
+if inmdwpnum == 10 
+
+call routine again with new waypoints
+
+
+
+float courseToWaypoint(float lat1, float long1, float lat2, float long2)
+{
+// returns course in degrees (North=0, West=270) from position 1 to position 2,
+// both specified as signed decimal-degrees latitude and longitude.
+// Because Earth is no exact sphere, calculated course may be off by a tiny fraction.
+// Courtesy of Maarten Lamers
+float dlon = radians(long2 - long1);
+lat1 = radians(lat1);
+lat2 = radians(lat2);
+float a1 = sin(dlon) * cos(lat2);
+float a2 = sin(lat1) * cos(lat2) * cos(dlon);
+a2 = cos(lat1) * sin(lat2) - a2;
+a2 = atan2(a1, a2);
+if (a2 < 0.0)
+{
+    a2 += TWO_PI;
+}
+return degrees(a2);
+}  // courseToWaypoint()
+
+float distanceToWaypoint(float Lat1, float Long1, float Lat2, float Long2)
+{
+float dist;
+float dLat = (float)(Lat2 - Lat1);                                    // difference of latitude in 1/10 000 000 degrees
+float dLon = (float)(Long2 - Long1) * cos(Lat1) ; //
+dist = sqrt(sq(dLat) + sq(dLon)) * 110575;
+
+return dist;
+
+}
+
+
+
+float degtorad(float deg)
+{
+	float rad = deg*(3.14159265359/180);
+	return rad;
+}
+
+float latgenerator( float currentlat, float currentlong,float distance,float course )
+{
+float newlat=0;
+float degree = distance/110575;
+course=degtorad(course);
+float lat=degree*cos(course);
+newlat=currentlat+lat;
+return newlat;
+
+
+}
+
+float longgenerator( float currentlat, float currentlong,float distance,float course )
+{
+float longi=0;
+
+float degree = distance/110575;
+course=degtorad(course);
+longi=degree*sin(course);
+longi=currentlong+longi;
+return longi;
+
+}
+
+
+
+//course = createcourse(course,1);
+float createcourse(float course, int type)
+{
+
+if(type ==1)
+{
+//box
+course=course+90;
+
+}//end if
+
+	
+	if (course >= 360)
+        course -= 360;
+else if (course < 0)
+        course += 360;
+
+return(course);
+}//end createcourse

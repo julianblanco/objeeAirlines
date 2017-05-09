@@ -1,0 +1,31 @@
+#define FILTER_COEF 0.1
+
+float target_heading = 0;
+float current_heading = 0;
+
+// From sensors
+float GPS_heading;
+float gyro_heading = 0;
+float last_gyro_heading;
+
+void setup()
+{
+    steer(0);
+    drive(10);
+}
+
+loop ()
+{
+    // Call at 100 Hz
+    last_gyro_heading = gyro_heading;
+    gyro_heading = get_gyro_heading();
+    current_heading = current_heading + angular_difference(last_gyro_heading, gyro_heading); // update state estimation
+    
+    // Call whenever new GPS data available
+    get_GPS_heading();
+    current_heading = current_heading + FILTER_COEF*angular_difference(current_heading, GPS_heading); // "anchor" state estimation to GPS heading
+    
+    // Call every loop
+    drive(target_heading, current_heading); // This calculates error and controls motors and steering
+}
+    

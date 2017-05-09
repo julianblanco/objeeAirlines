@@ -1,0 +1,7 @@
+During tests it was noticed that after sharp turns there was overshoot while driving on the heading toward the next waypoint.
+
+This is either due to the gyro not giving correct values for angular changes (unlikely) or the GPS heading data being filtered into the system is inaccurate because the vehicle just changed its heading very rapidly (likely).
+
+To fix the overshoot I propose that we use the gyro to give us a value for the total change in angular difference from a constantly incrementing point in time to the current moment (moving window to find total vehicle heading change during that time).  Then we use that value as an indicator to decide if we want to factor the GPS data into the heading estimation.
+
+The reason to use the motion of the vehicle is directly causative of the GPS heading, and if the GPS heading lags slightly, then the sensor we use to augment the lag in the GPS is the gyro.  Since the gyro is the check and balance of the GPS, it makes sense to use it as an indicator for inaccuracies in the GPS heading information.

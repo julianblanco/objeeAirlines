@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" xmlns:xml="http://www.w3.org/XML/1998/namespace" y="0px" height="77.098427" width="93.857315" version="1.1"  id="_x30_" gorn="0" xml:space="preserve" viewBox="0 0 93.857314 77.098429">
+    <g  transform="translate(0.023,0)">
+        <g >
+            <g >
+                <g >
+                    <g >
+                        <metadata  id="metadata42">
+                            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" rdf:about="">
+                                    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                                    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+                                    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                                </cc:Work>
+                            </rdf:RDF>
+                        </metadata>
+                        <defs  id="defs40"/>
+                        <desc  id="0.0">
+                            <referenceFile  id="0.0.0">ADXL327_Breadboard.svg</referenceFile>
+                        </desc>
+                        <path fill="#f9f9f9"  id="_x30_.1" gorn="0.0.0.0.0.0.3" stroke-width="1.07686055" d="M 0.5154292,0.53843027 V 34.747496 42.353484 76.559996 H 93.295889 V 0.53843027 H 0.5154292 l 0,0 z" stroke="#f9f9f9"/>
+                        <g  transform="translate(5.1477894,38.903054)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g  id="_x30_.7" gorn="0.0.0.0.0.0.4.0.0.0.0">
+                                            <g  transform="translate(-6.103516e-5,0)">
+                                                <g >
+                                                    <g >
+                                                        <g >
+                                                            <text style="font-size:5px;fill:#d6d8d6;font-family:Droid Sans" font-size="5"  id="_x30_.7.0" gorn="0.0.0.0.0.0.4.0.0.0.0.0.0.0.0.0">1</text>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="matrix(0,-1,1,0,29.492489,37.903054)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g  id="_x30_.8" gorn="0.0.0.0.0.0.5.0.0.0.0">
+                                            <g  transform="translate(-0.1953,12.4438)">
+                                                <g >
+                                                    <g >
+                                                        <g >
+                                                            <text style="font-size:5px;fill:#d6d8d6;font-family:Droid Sans" font-size="5"  id="_x30_.8.0" gorn="0.0.0.0.0.0.5.0.0.0.0.0.0.0.0.0">IC9</text>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4870714,2.1527953)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector9pin" gorn="0.0.0.0.0.0.6.0.0.0.0" r="1.75" stroke-width="1.5" d="m 55.522999,4.0910001 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="53.772999" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.6383025,2.1527953)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0890002" fill="#403619"  id="connector10pin" gorn="0.0.0.0.0.0.7.0.0.0.0" r="1.75" stroke-width="1.5" d="m 48.327,4.0890002 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="46.577" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4870714,2.1527953)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0949998" fill="#403619"  id="connector11pin" gorn="0.0.0.0.0.0.8.0.0.0.0" r="1.75" stroke-width="1.5" d="m 41.140999,4.0949998 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="39.390999" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4870714,2.0015643)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0929999" fill="#403619"  id="connector12pin" gorn="0.0.0.0.0.0.9.0.0.0.0" r="1.75" stroke-width="1.5" d="m 33.945,4.0929999 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="32.195" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4870714,2.1527953)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector13pin" gorn="0.0.0.0.0.0.10.0.0.0.0" r="1.75" stroke-width="1.5" d="m 26.743,4.0910001 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="24.993" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4870714,2.0015643)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0949998" fill="#403619"  id="connector14pin" gorn="0.0.0.0.0.0.11.0.0.0.0" r="1.75" stroke-width="1.5" d="m 19.639,4.0949998 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="17.889" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.6642497,2.0275113)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0929999" fill="#403619"  id="connector15pin" gorn="0.0.0.0.0.0.12.0.0.0.0" r="1.75" stroke-width="1.5" d="m 12.443,4.0929999 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.9664985,0 -1.7500002,-0.7835017 -1.7500002,-1.75 0,-0.9664983 0.7835017,-1.75 1.7500002,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="10.693" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.3877345,2.0275113)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector16pin" gorn="0.0.0.0.0.0.13.0.0.0.0" r="1.75" stroke-width="1.5" d="m 5.2420001,4.0910001 c 0,0.9664983 -0.7835017,1.75 -1.75,1.75 -0.9664983,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.7835017,-1.75 1.75,-1.75 0.9664983,0 1.75,0.7835017 1.75,1.75 z" cx="3.4920001" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(52.019685,-19.465501)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="25.695" fill="#403619"  id="connector2pin-96" gorn="0.0.0.0.0.0.14.0.0.0.0" r="1.75" stroke-width="1.5" d="m 12.443,25.695 c 0,0.966498 -0.783502,1.75 -1.75,1.75 -0.9664985,0 -1.7500002,-0.783502 -1.7500002,-1.75 0,-0.966499 0.7835017,-1.75 1.7500002,-1.75 0.966498,0 1.75,0.783501 1.75,1.75 z" cx="10.693" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <path style="fill:#237b3d"  id="_x30_.1-2" gorn="0.0.0.0.0.0.15" d="m 25.58474,20.373379 v 16.465374 3.660885 16.464146 H 92.279072 V 20.373379 H 25.58474 l 0,0 z"/>
+                        <g  transform="matrix(1.4022727,0,0,1.4573843,-10.797566,6.4238163)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <a  id="a13620">
+                                            <g  transform="translate(-0.02300107,0)">
+                                                <g >
+                                                    <g >
+                                                        <g >
+                                                            <path fill="#cccccc"  id="rect13618" gorn="0.0.0.0.0.0.16.0.0.0.0.0.0.0.0.0" stroke-width="1" d="m 30.151871,11.335799 20.964258,0 0,18.737412 c -2.801983,2.66493 -0.188424,0.01525 -2.813027,2.737411 l -20.627801,0 0,-18.737412 c 2.118974,-2.516187 0.145645,-0.246361 2.47657,-2.737411 z" stroke="#999999"/>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </a>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <rect fill="#ececec" x="65.078049" style="stroke-miterlimit:4;stroke-dasharray:none" y="28.103685" height="20.524864" width="25.21303"  id="rect13626" gorn="0.0.0.0.0.0.17" stroke-width="0.5" stroke="#cccccc"/>
+                        <g  transform="translate(1.5183981,67.084503)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector9pin-3" gorn="0.0.0.0.0.0.18.0.0.0.0" r="1.75" stroke-width="1.5" d="m 55.522999,4.0910001 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="53.772999" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.6696293,67.084503)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0890002" fill="#403619"  id="connector10pin-5" gorn="0.0.0.0.0.0.19.0.0.0.0" r="1.75" stroke-width="1.5" d="m 48.327,4.0890002 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="46.577" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.5183981,67.084503)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0949998" fill="#403619"  id="connector11pin-3" gorn="0.0.0.0.0.0.20.0.0.0.0" r="1.75" stroke-width="1.5" d="m 41.140999,4.0949998 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="39.390999" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.5183979,66.933272)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0929999" fill="#403619"  id="connector12pin-6" gorn="0.0.0.0.0.0.21.0.0.0.0" r="1.75" stroke-width="1.5" d="m 33.945,4.0929999 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966499,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783501,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="32.195" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.5183979,67.084503)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector13pin-7" gorn="0.0.0.0.0.0.22.0.0.0.0" r="1.75" stroke-width="1.5" d="m 26.743,4.0910001 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="24.993" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.5183972,66.933272)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0949998" fill="#403619"  id="connector14pin-9" gorn="0.0.0.0.0.0.23.0.0.0.0" r="1.75" stroke-width="1.5" d="m 19.639,4.0949998 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.966498,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.783502,-1.75 1.75,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="17.889" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.6955761,66.959219)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0929999" fill="#403619"  id="connector15pin-8" gorn="0.0.0.0.0.0.24.0.0.0.0" r="1.75" stroke-width="1.5" d="m 12.443,4.0929999 c 0,0.9664983 -0.783502,1.75 -1.75,1.75 -0.9664985,0 -1.7500002,-0.7835017 -1.7500002,-1.75 0,-0.9664983 0.7835017,-1.75 1.7500002,-1.75 0.966498,0 1.75,0.7835017 1.75,1.75 z" cx="10.693" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(1.4190612,66.959219)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="4.0910001" fill="#403619"  id="connector16pin-0" gorn="0.0.0.0.0.0.25.0.0.0.0" r="1.75" stroke-width="1.5" d="m 5.2420001,4.0910001 c 0,0.9664983 -0.7835017,1.75 -1.75,1.75 -0.9664983,0 -1.75,-0.7835017 -1.75,-1.75 0,-0.9664983 0.7835017,-1.75 1.75,-1.75 0.9664983,0 1.75,0.7835017 1.75,1.75 z" cx="3.4920001" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="translate(52.051012,45.466207)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <circle cy="25.695" fill="#403619"  id="connector2pin-96-3" gorn="0.0.0.0.0.0.26.0.0.0.0" r="1.75" stroke-width="1.5" d="m 12.443,25.695 c 0,0.966498 -0.783502,1.75 -1.75,1.75 -0.9664985,0 -1.7500002,-0.783502 -1.7500002,-1.75 0,-0.966499 0.7835017,-1.75 1.7500002,-1.75 0.966498,0 1.75,0.783501 1.75,1.75 z" cx="10.693" stroke="#9a916c"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g fill-opacity="1" fill="#000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;font-family:OCRA;-inkscape-font-specification:OCRA" font-size="4.90662"  id="text6438" gorn="0.0.0.0.0.0.27" xml:space="preserve" stroke="none">
+                            <text x="71.568275" y="40.558971"  id="tspan6440" gorn="0.0.0.0.0.0.27.0">UWB42</text>
+                        </g>
+                        <g  transform="matrix(0.87210022,0,0,0.87210022,13.364404,20.151954)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <path fill="#000000" style="stroke-miterlimit:4;stroke-dasharray:none"  id="path6442" gorn="0.0.0.0.0.0.28.0.0.0.0" stroke-width="0.5" d="m 65.271715,18.912532 0,2.253293 0,2.253293 -1.951409,-1.126647 -1.951409,-1.126646 1.951409,-1.126647 z" stroke="#000000"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="matrix(0,1,-1,0,0,0)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g fill-opacity="1" fill="#000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;font-family:OCRA;-inkscape-font-specification:OCRA" font-size="3.16164"  id="text6444" gorn="0.0.0.0.0.0.29.0.0.0.0" xml:space="preserve" stroke="none">
+                                            <text x="2.1086128" y="-89.172913"  id="tspan6446" gorn="0.0.0.0.0.0.29.0.0.0.0.0">DWM1000</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="matrix(0,1,-1,0,0,0)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g fill-opacity="1" fill="#000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;font-family:OCRA;-inkscape-font-specification:OCRA" font-size="3.16164"  id="text6444-1" gorn="0.0.0.0.0.0.30.0.0.0.0" xml:space="preserve" stroke="none">
+                                            <text x="2.1626518" y="-85.708908"  id="tspan6446-6" gorn="0.0.0.0.0.0.30.0.0.0.0.0">Adapter</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="matrix(0,1,-1,0,0,0)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g fill-opacity="1" fill="#000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;font-family:OCRA;-inkscape-font-specification:OCRA" font-size="3.16164"  id="text6444-9" gorn="0.0.0.0.0.0.31.0.0.0.0" xml:space="preserve" stroke="none">
+                                            <text x="4.8848114" y="-66.923973"  id="tspan6446-9" gorn="0.0.0.0.0.0.31.0.0.0.0.0">1</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g  transform="matrix(0,1,-1,0,0,0)">
+                            <g >
+                                <g >
+                                    <g >
+                                        <g fill-opacity="1" fill="#000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;font-family:OCRA;-inkscape-font-specification:OCRA" font-size="3.16164"  id="text6444-9-2" gorn="0.0.0.0.0.0.32.0.0.0.0" xml:space="preserve" stroke="none">
+                                            <text x="69.055763" y="-66.923973"  id="tspan6446-9-9" gorn="0.0.0.0.0.0.32.0.0.0.0.0">18</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

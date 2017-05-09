@@ -1,0 +1,14 @@
+Stage 1:
+-Data acquisition (resolve communication and timing conflicts)
+
+Stage 2:
+-Find craft's true orientation
+
+Stage 3:
+-Determine desired orientation and rate to achieve long term goals (waypoints)
+
+Stage 4:
+-Synthesize true and desired orientation to find control surface responses
+
+Stage 5:
+-Output control responses to the hardware

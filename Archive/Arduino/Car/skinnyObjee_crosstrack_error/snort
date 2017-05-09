@@ -1,0 +1,9 @@
+sudo apt-get install g++
+sudo apt-get install make
+sudo apt-get install flex
+sudo apt-get install cmake
+sudo apt-get install bison
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get update
+wget http://downloads.sourceforge.net/project/pcre/pcre2/10.20/pcre2-10.20.tar.bz2?r=&ts=1452561932&use_mirror=skylineservers

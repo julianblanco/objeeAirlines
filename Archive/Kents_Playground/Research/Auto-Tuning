@@ -1,0 +1,16 @@
+The Ziegler–Nichols tuning method is a heuristic method of tuning a PID controller. It was developed by John G. Ziegler and Nathaniel B. Nichols. It is performed by setting the I (integral) and D (derivative) gains to zero. The "P" (proportional) gain, K_p is then increased (from zero) until it reaches the ultimate gain K_u, at which the output of the control loop has stable and consistent oscillations. K_u and the oscillation period T_u are used to set the P, I, and D gains depending on the type of controller used:
+
+Ziegler–Nichols method
+Control Type			K_p			T_i			T_d
+P						0.5 K_u		-			-
+PID						0.45 K_u	T_u/1.2		-
+PD						0.8 K_u		-			T_u/8
+classic PID				0.60 K_u	T_u/2		T_u/8
+Pessen Integral	Rule	0.7 K_u		T_u/2.5		3 T_u/20
+some overshoot			0.33 K_u	T_u/2		T_u/3
+no overshoot			0.2 K_u		T_u/2		T_u/3
+
+
+
+
+Look into Astrom and Hagglund (1995) ISA PID regulator?
